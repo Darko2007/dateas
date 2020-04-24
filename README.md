@@ -4,7 +4,7 @@ Codigo escrito por: Angelo Mass - Darko
 
 El autor no se hace responsable por el uso que le den a la herramienta.
 
-La herramienta fue diseñada para el grupo "Auditoria global" y para la pagina "black hat"
+La herramienta fue diseñada para el grupo "Auditoria global" y para las paginas "black hat" y "numero 23"
 
 La herramienta dateas se encarga de realizar consultas a la pagina dateas.com
 Dicha pagina se encarga de recopilar informacion de personas de venezuela y otros paises.
