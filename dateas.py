@@ -68,6 +68,7 @@ Codigo escrito por: Angelo Mass - Darko
             dateas()
     except:
         print Fore.YELLOW + '[*]Ha ocurrido un problema al tratar de consultar la informacion. Intente nuevamente.'
+        dateas()
 
 def investigar_primernombre_primerapellido():
     print '''
@@ -97,6 +98,7 @@ Codigo escrito por: Angelo Mass - Darko
             dateas()
     except:
         print Fore.YELLOW + '[*]Ha ocurrido un problema al tratar de consultar la informacion. Intente nuevamente.'
+        dateas()
 
 dateas()
 
