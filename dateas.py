@@ -29,10 +29,8 @@ Investigar a personas en venezuela.
        opcion = raw_input('Darko@Dateas$ ')
        if opcion == '1':
            investigar_nombre_completo()
-           break
        elif opcion == '2':
            investigar_primernombre_primerapellido()
-           break
        elif opcion == '3':
            exit()
        else:
@@ -62,13 +60,10 @@ Codigo escrito por: Angelo Mass - Darko
         html = urllib2.urlopen(req).read()
         if html.find('<h2 class="title">No') == -1:
             print Fore.GREEN + '[*]Se ha encontrado informacion de la persona. Consulte la siguiente url: ' + url
-            dateas()
         else:
             print Fore.RED + '[*]No se ha encontrado informacion de la persona.'
-            dateas()
     except:
         print Fore.YELLOW + '[*]Ha ocurrido un problema al tratar de consultar la informacion. Intente nuevamente.'
-        dateas()
 
 def investigar_primernombre_primerapellido():
     print '''
@@ -92,13 +87,10 @@ Codigo escrito por: Angelo Mass - Darko
         html = urllib2.urlopen(req).read()
         if html.find('<h2 class="title">No') == -1:
             print Fore.GREEN + '[*]Se ha encontrado informacion de la persona. Consulte la siguiente url: ' + url
-            dateas()
         else:
-            print Fore.GREEN + '[*]No se ha encontrado informacion de la persona.'
-            dateas()
+            print Fore.RED + '[*]No se ha encontrado informacion de la persona.'
     except:
         print Fore.YELLOW + '[*]Ha ocurrido un problema al tratar de consultar la informacion. Intente nuevamente.'
-        dateas()
 
 dateas()
 
